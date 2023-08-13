@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background: url(images4_1/FIN_3GBX_Diazgranados_SP23_Zhu_Wei_RD_12.png) no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+ }
+ul{
+  list-style:none;
+}
+
+.nav{
+  height:40px;
+
+}
+
+h1{
+  color: grey;
+  font:helvetica;
+  font-size:32px;
+  padding-left:10px;
+  margin-left:50px;
+  margin-top:20px;
+  text-decoration: none;
+}
+}
+
+.navlist h1:hover{
+  background:transparent;
+  backdrop-filter: blur(8px);
+}
+
+.btli:hover .droplist{
+  display: block;
+}
+
+.droplist {
+  background-color:transparent;
+  padding:10px;
+  margin-left: 50px;
+  margin-right:75%;
+  box-shadow:2px 2px 2px 1px rgba(0,0,0,0.2);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  display:none;
+
+}
+
+p{
+  font:helvetica;
+  font-size:16px;
+
+}
+
+.scroll{
+  position: relative;
+  }
+
+#imgp{ 
+margin-left:80%;
+  
+}
+
+
+img:hover{ transform:scale(1.5);
+cursor: pointer;
+}
+
+.topbar{
+    position:absolute;
+    bottom:5%;
+    right:0;
+    left:83%;
+/*    background-color: black;*/
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+a{
+    height:20px;
+    padding:10px;
+    font-family: helvetica;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
